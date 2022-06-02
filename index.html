@@ -1,0 +1,43 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<title>BioWear</title>
+
+<body>
+
+    <div class="topnav" id="myTopnav">
+
+        <a href="./index.html" class="active">Logo</a>
+        <a href="/sobre">Sobre</a>
+        <a href="/colecoes">Coleções</a>
+
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+    </div>
+
+    <div class="mid">
+        <img class="logoBig" src="logo.png" alt="Logo">
+        <a href="/sobre" class="abtButton" id="sobre"> Sobre nós</a>
+        <a href="/colecoes" class="colButton" id="colecoes"> Nossas coleções</a>
+        <div class="bio">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Amet non aperiam eum vel mollitia! Neque fugit ut
+            recusandae voluptates laborum. Odit ipsa harum enim officia vero nisi quod quae laudantium!</div>
+    </div>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+
+</body>
+
+</html>

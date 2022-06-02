@@ -1,0 +1,21 @@
+body{
+    --color1: #e8e0d4;
+    --color2: #162E25;
+    background-color: var(--color2);
+    color: var(--color2);
+}
+
+
+
+.mid{
+    background-color: var(--color1);
+    height: 100%;
+    width: 90%;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
